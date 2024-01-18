@@ -1,0 +1,23 @@
+Python Fundamentals
+https://github.com/growdataskills/Python_Fundamentals
+Docker Fundamentals
+https://www.youtube.com/watch?v=jPdIRX6q4jA&list=PLy7NrYWoggjzfAHlUusx2wuDwfCrmJYcs
+Github Fundamentals
+https://www.youtube.com/watch?v=8JJ101D3knE
+Linux Fundamentals
+https://github.com/growdataskills/Linux-Basics
+Pandas Fundamentals
+https://github.com/growdataskills/Pandas
+Big Data Fundamentals & Basics of Bigdata & Hadoop
+https://ptgmedia.pearsoncmg.com/images/9780134291079/samplepages/9780134291079.pdf
+https://medium.com/dssimplified/understanding-the-basics-of-big-data-analytics-50801a0adde6
+https://data-flair.training/blogs/hadoop-tutorial/
+Hadoop pdf pre_read content in the folder please look at it.
+How to setup GCP free trail
+https://www.youtube.com/watch?v=pIZ8uyxY3jg&list=PLeOtIjHQdqvFtYzoFL-DCYx_Sw-5iBJQ4&index=4
+Create the first Dataproc Cluster | Apache Spark on Dataproc | Google Cloud Series
+https://www.youtube.com/watch?v=HrGxUxcqXI8&list=PLeOtIjHQdqvFtYzoFL-DCYx_Sw-5iBJQ4&index=6
+
+
+Additional Content
+https://github.com/growdataskills
