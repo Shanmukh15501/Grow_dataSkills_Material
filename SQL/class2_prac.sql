@@ -214,3 +214,40 @@ select *,
         else
         'okokok' end as 'sss'
  from orders_data;
+
+
+select * from customer;
+insert into customer values(1,'shanmukh');
+insert into customer values(2,'Aditya');
+insert into customer values(3,'Arnav');
+insert into customer values(4,'Samaira');
+insert into customer values(5,'Shero');
+insert into customer values(6,'suan');
+insert into customer values(7,'aryin');
+insert into customer values(8,'shiba');
+insert into customer values(9,'parkeee');
+insert into customer values(10,'saeroyi');
+
+
+select * from orders_data;
+desc orders_data;
+
+alter table orders_data add CONSTRAINT fk FOREIGN KEY(cust_id) references customer(id);
+
+#inner
+
+select c.*,o.* from orders_data as o inner join customer as c on
+c.id=o.cust_id;
+
+#left
+SELECT c.*, o.*
+FROM customer AS c
+LEFT JOIN orders_data AS o ON c.id = o.cust_id;
+
+select * from customer;
+select * from orders_data;
+
+desc customer;
+desc orders_data;
+
+select * from customer inner join orders_data on customer.id=orders_data.cust_id
