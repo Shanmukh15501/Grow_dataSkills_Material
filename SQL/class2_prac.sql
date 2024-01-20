@@ -152,11 +152,18 @@ insert into orders_data values(7,130,'USA','Seattle',200);
 
 
 
+SELECT *
+FROM orders
+INNER JOIN customer ON orders.cust_id = customer.id;
+
+left join
+
+SELECT *
+FROM orders
+LEFT JOIN customer ON orders.cust_id = customer.id;
 
 
-
-
-
+select * from customer;
 
 select * from orders_data;
 select country, count(*) as order_count_by_each_country from orders_data group by country;
@@ -242,12 +249,10 @@ c.id=o.cust_id;
 #left
 SELECT c.*, o.*
 FROM customer AS c
-LEFT JOIN orders_data AS o ON c.id = o.cust_id;
+LEFT JOIN orders AS o ON c.id = o.cust_id;
 
-select * from customer;
-select * from orders_data;
 
-desc customer;
-desc orders_data;
-
-select * from customer inner join orders_data on customer.id=orders_data.cust_id
+#RIGHT
+SELECT c.*, o.*
+FROM customer AS c
+cross JOIN orders AS o ON c.id = o.cust_id;
